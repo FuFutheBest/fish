@@ -9,6 +9,7 @@ function typewrite
 end
 
 function fish_greeting
+    mkdir -p ~/.config/fish/cache
     set datefile ~/.config/fish/cache/fish_greeting_date
     set today (date '+%Y-%m-%d')
 
